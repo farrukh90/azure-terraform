@@ -37,7 +37,7 @@ resource "azurerm_traffic_manager_profile" "example" {
   }
 
   tags = {
-    environment = "Production"
+    Created_by = "Production"
   }
 }
 
